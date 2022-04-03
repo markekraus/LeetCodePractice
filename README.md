@@ -20,6 +20,8 @@ As such, the PowerShell solutions optimize function over form.
 * Cleanup solutions
 * Document time and space complexity for each solution
 * Add PowerShell solutions
+* Document the LeetCode problem title and URL in each solution
+* Document how each solutions works
 
 ## Solutions
 
