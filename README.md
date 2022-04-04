@@ -73,5 +73,8 @@ As such, the PowerShell solutions optimize function over form.
     * [136. Single Number](https://leetcode.com/problems/single-number/) - [Go](AlgorithmsI/singlenum/main.go) | [PS](AlgorithmsI/singlenum/main.ps1)
 * Data Structure I
   * Day 1 - Array
-    * [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - [Go](DataStructureI/containsduplicate/main.go)
-    * [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) - [Go](DataStructureI/maximumsubarray/main.go)
+    * [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - [Go](DataStructureI/containsduplicate/main.go) | [PS](DataStructureI/containsduplicate/main.ps1)
+    * [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) - [Go](DataStructureI/maximumsubarray/main.go) | [PS](DataStructureI/maximumsubarray/main.ps1)
+  * Day 2 - Array
+    * [1. Two Sum](https://leetcode.com/problems/two-sum/) - [Go](DataStructureI/twosum/main.go) | [PS](DataStructureI/twosum/main.ps1)
+    * [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) - [Go](DataStructureI/mergesortedarray/main.go) | [PS](DataStructureI/mergesortedarray/main.ps1)
