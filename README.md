@@ -16,7 +16,6 @@ As such, the PowerShell solutions optimize function over form.
 
 ## To Do
 
-* Add missing solutions
 * Cleanup solutions
 * Document time and space complexity for each solution
 * Add PowerShell solutions
@@ -55,8 +54,8 @@ As such, the PowerShell solutions optimize function over form.
     * [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) - [Go](AlgorithmsI/day09/01matrix/main.go)
     * [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) - [Go](AlgorithmsI/day09/rottingoranges/main.go)
   * Day 10 - Recursion / Backtracking
-    * [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) - [Go]()
-    * [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) - [Go]()
+    * [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) - [Go](AlgorithmsI/day10/mergetwosortedlists/main.go)
+    * [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) - [Go](AlgorithmsI/day10/reverselinkedlist/main.go)
   * Day 11 - Recursion / Backtracking
     * [77. Combinations](https://leetcode.com/problems/combinations/) - [Go](AlgorithmsI/day11/combinations/main.go)
     * [46. Permutations](https://leetcode.com/problems/permutations/) - [Go](AlgorithmsI/day11/permutations/main.go)
@@ -66,8 +65,8 @@ As such, the PowerShell solutions optimize function over form.
     * [198. House Robber](https://leetcode.com/problems/house-robber/) - [Go](AlgorithmsI/day12/houserobber/main.go)
     * [120. Triangle](https://leetcode.com/problems/triangle/) - [Go](AlgorithmsI/day12/triangle/main.go)
   * Day 13 - Bit Manipulation
-    * [231. Power of Two](https://leetcode.com/problems/power-of-two/) - [Go]()
-    * [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) - [Go]()
+    * [231. Power of Two](https://leetcode.com/problems/power-of-two/) - [Go](AlgorithmsI/day13/poweroftwo/main.go)
+    * [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) - [Go](AlgorithmsI/day13/numberofonebits/main.go)
   * Day 14 - Bit Manipulation
     * [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) - [Go](AlgorithmsI/day14/reversebits/main.go) | [PS](AlgorithmsI/day14/reversebits/main.ps1)
     * [136. Single Number](https://leetcode.com/problems/single-number/) - [Go](AlgorithmsI/day14/singlenum/main.go) | [PS](AlgorithmsI/day14/singlenum/main.ps1)
