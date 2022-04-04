@@ -7,7 +7,7 @@ import "fmt"
 
 // time: O(log(n))
 // space: O(1)
-func containsDuplicatNaive(nums []int) bool {
+func containsDuplicateNaive(nums []int) bool {
 	if len(nums) == 1 {
 		return false
 	}
