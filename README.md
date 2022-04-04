@@ -71,3 +71,7 @@ As such, the PowerShell solutions optimize function over form.
   * Day 14 - Bit Manipulation
     * [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) - [Go](AlgorithmsI/reversebits/main.go) | [PS](AlgorithmsI/reversebits/main.ps1)
     * [136. Single Number](https://leetcode.com/problems/single-number/) - [Go](AlgorithmsI/singlenum/main.go) | [PS](AlgorithmsI/singlenum/main.ps1)
+* Data Structure I
+  * Day 1 - Array
+    * [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - [Go](DataStructureI/containsduplicate/main.go)
+    * [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) - [Go](DataStructureI/maximumsubarray/main.go)
