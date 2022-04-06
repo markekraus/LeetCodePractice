@@ -80,3 +80,6 @@ As such, the PowerShell solutions optimize function over form.
   * Day 3 - Array
     * [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) - [Go](DataStructureI/day03/interesctionoftwoarraysii/main.go) | [PS](DataStructureI/day03/interesctionoftwoarraysii/main.ps1)
     * [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - [Go](DataStructureI/day03/besttimetobuyandsellstock/main.go) | [PS](DataStructureI/day03/besttimetobuyandsellstock/main.ps1)
+  * Day 4 - Array
+    * [566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) - [Go](DataStructureI/day04/reshapematrix/main.go) | [PS](DataStructureI/day04/reshapematrix/main.ps1)
+    * [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) - [Go](DataStructureI/day04/pascalstriangle/main.go) | [PS](DataStructureI/day04/pascalstriangle/main.ps1)
