@@ -86,4 +86,3 @@ As such, the PowerShell solutions optimize function over form.
   * Day 5 - Array
     * [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) - [Go]() | [PS]()
     * [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) - [Go](DataStructureI/day05/validsudoku/main.go) | [PS](DataStructureI/day05/validsudoku/main.ps1)
-    * [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) - [Go](DataStructureI/day05/searcha2dmatrix/main.go) | [PS](DataStructureI/day05/searcha2dmatrix/main.ps1)
