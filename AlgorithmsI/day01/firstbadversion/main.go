@@ -11,28 +11,32 @@ func isBadVersion(version int) bool {
 	return version >= firstBad
 }
 
+// time: O(log(n))
+// space: O(1)
 func firstBadVersion(n int) int {
 	left := 1
-	pos := 1
-	for left <= n {
-		mid := left + (n-left)/2
+	right := n
+	result := 1
+	for left <= right {
+		mid := (left + right) >> 1
 		if isBadVersion(mid) {
-			pos = mid
-			n = mid - 1
-		} else {
-			left = mid + 1
+			result = mid
+			right = mid - 1
+			continue
 		}
+		left = mid + 1
 	}
-	return pos
+	return result
 }
 
 func main() {
-	fmt.Printf("Bad: %v Result: %v\n", firstBad, firstBadVersion(5))
+	firstBad = 4
+	fmt.Printf("%v\n", firstBadVersion(5)) // 4
 	firstBad = 1
-	fmt.Printf("Bad: %v Result: %v\n", firstBad, firstBadVersion(1))
-	fmt.Printf("Bad: %v Result: %v\n", firstBad, firstBadVersion(2))
+	fmt.Printf("%v\n", firstBadVersion(1)) // 1
+	fmt.Printf("%v\n", firstBadVersion(2)) // 1
 	firstBad = 13
-	fmt.Printf("Bad: %v Result: %v\n", firstBad, firstBadVersion(20))
+	fmt.Printf("%v\n", firstBadVersion(20)) // 13
 	firstBad = 2
-	fmt.Printf("Bad: %v Result: %v\n", firstBad, firstBadVersion(3))
+	fmt.Printf("%v\n", firstBadVersion(3)) // 2
 }

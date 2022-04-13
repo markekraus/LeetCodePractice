@@ -5,11 +5,13 @@ package main
 
 import "fmt"
 
+// time: O(log(n))
+// space: O(1)
 func search(nums []int, target int) int {
-	var left int16 = 0
-	var right int16 = int16(len(nums) - 1)
+	left := 0
+	right := len(nums) - 1
 	for left <= right {
-		var mid int16 = left + (right-left)/2
+		mid := (left + right) >> 1
 		if nums[mid] == target {
 			return int(mid)
 		} else if nums[mid] < target {
@@ -22,10 +24,9 @@ func search(nums []int, target int) int {
 }
 
 func main() {
-	var nums = []int{-1, 0, 3, 5, 9, 12}
-	result := search(nums, 9)
-	fmt.Printf("Result %v\n", result)
+	var nums []int
 	nums = []int{-1, 0, 3, 5, 9, 12}
-	result = search(nums, 2)
-	fmt.Printf("Result %v\n", result)
+	fmt.Printf("%v\n", search(nums, 9)) // 4
+	nums = []int{-1, 0, 3, 5, 9, 12}
+	fmt.Printf("%v\n", search(nums, 2)) // -1
 }
